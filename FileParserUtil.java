@@ -7,7 +7,7 @@ import java.io.FileReader;
  * 
  * @author jayantkdas
  */
-public class FileParsetUtil {
+public class FileParserUtil {
 
 	public static void main(String[] args) {
 		try {
