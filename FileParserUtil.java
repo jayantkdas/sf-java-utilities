@@ -3,7 +3,16 @@ import java.io.File;
 import java.io.FileReader;
 
 /**
- * Utility class to count uncommented lines in a file. You can add/modify the pattern as you like in the section commented below
+ * Utility class to count uncommented lines in a file. You can add/modify the pattern as you like in the section commented below.
+ * 
+ * The utilitiy supports comments in the following format only and assumes that comments start in a new line:
+ * 
+ * 1.Comments starting with /**
+ * 2. Comments starting with //
+ * 3. Multi-line comments folowing the format:
+ *    /*
+ *     *
+ *     * /
  * 
  * @author jayantkdas
  */
