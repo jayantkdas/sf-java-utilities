@@ -1,2 +1,2 @@
 # sf-java-utilities
-Snippets of Java codes for Salesforce
+Snippets of Java & Salesforce codes around Salesforce ecosystem
